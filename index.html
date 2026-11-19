@@ -1,1 +1,166 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huizer Marine &amp; Works | ZZP Schipper</title>
+    <style>
+        :root {
+            --primary: #0f2c59;
+            --accent: #1d5b79;
+            --bg-light: #f8fafc;
+            --text-dark: #1e293b;
+            --text-muted: #475569;
+        }
 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: #ffffff;
+            padding: 72px 0 56px;
+        }
+
+        header h1 {
+            font-size: 2.1rem;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            max-width: 580px;
+            margin-bottom: 24px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #ffffff;
+            color: var(--primary);
+            padding: 11px 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        section {
+            padding: 52px 0;
+        }
+
+        h2 {
+            font-size: 1.45rem;
+            color: var(--primary);
+            margin-bottom: 16px;
+        }
+
+        .box {
+            background-color: var(--bg-light);
+            padding: 24px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .box a {
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+            padding: 36px 0;
+            font-size: 0.9rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 24px;
+            margin-bottom: 20px;
+        }
+
+        footer strong {
+            color: #ffffff;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        .copyright {
+            border-top: 1px solid #1e293b;
+            padding-top: 16px;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Huizer Marine &amp; Works</h1>
+            <p>Inzetbaar als ZZP-schipper op diverse boten en vaartuigen.</p>
+            <a href="#contact" class="btn">Contact</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>Wat ik doe</h2>
+            <div class="box">
+                <p>Schipper op diverse boten, flexibel in te huren als ZZP'er voor opdrachten en vaartochten.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="box">
+                <p>Neem contact op voor beschikbaarheid of opdrachten via <a href="mailto:huizermarineandworks@gmail.com">huizermarineandworks@gmail.com</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <strong>Bedrijfsgegevens</strong>
+                    Huizer Marine &amp; Works<br>
+                    Lange Geer 64<br>
+                    2611 PW Delft
+                </div>
+                <div>
+                    <strong>Registratie</strong>
+                    KVK-nummer: 42226172<br>
+                    Btw-id: ...
+                </div>
+                <div>
+                    <strong>E-mail</strong>
+                    <a href="mailto:huizermarineandworks@gmail.com" style="color: #cbd5e1; text-decoration: none;">huizermarineandworks@gmail.com</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 Huizer Marine &amp; Works. Alle rechten voorbehouden.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
